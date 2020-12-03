@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "确认支付",
+  "usingComponents": {
+    "mrpzx-checker-box": "/components/mrpzx-checker-box/mrpzx-checker-box",
+    "mrpzx-checker-item": "/components/mrpzx-checker-item/mrpzx-checker-item",
+    "mrpzx": "/components/mrpzx-checker-box/mrpzx-checker-box"
+  }
+}

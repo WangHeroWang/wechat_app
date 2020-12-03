@@ -1,0 +1,122 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {}
+		},
+		{
+			"path": "pages/tabs/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent" //透明渐变导航栏 App-nvue 2.4.4+ 支持
+					},
+					"distribute": {  
+					            "ios": {  
+					                "urlschemewhitelist": [  
+					                    "baidumap",  
+					                    "iosamap",  
+					                    "qqmap"	  
+					                ]  
+					            }  
+					        }
+				}
+			}
+		},
+		
+		{
+			"path": "pages/tabs/type/type",
+			"style": {
+				"navigationBarTitleText": "加油站"
+			}
+		},
+		{
+			"path": "pages/tabs/cart/cart",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/tabs/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/payfor/payfor",
+			"style": {
+				"navigationBarTitleText": "确认支付"
+			}
+		},
+		{
+			"path": "pages/tabs/cart/orderInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+	    ,{
+            "path" : "pages/money/money",
+            "style" : {
+				"navigationBarTitleText": "支付完成"
+			}
+        }
+        ,{
+            "path" : "pages/coupons/coupons",
+            "style" : {
+				"navigationBarTitleText": "优惠券"
+			}
+        }
+        ,{
+            "path" : "pages/total/total",
+            "style" : {
+				"navigationBarTitleText": "累计消费"
+			}
+        }
+        ,{
+            "path" : "pages/total/totaljy",
+            "style" : {
+				"navigationBarTitleText": "累计加油升数"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#005BBA",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabs/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabs/type/type",
+				"iconPath": "static/tabs/type.png",
+				"selectedIconPath": "static/tabs/type1.png",
+				"text": "加油站"
+			},
+
+			{
+				"pagePath": "pages/tabs/cart/cart",
+				"iconPath": "static/tabs/cart.png",
+				"selectedIconPath": "static/tabs/cart1.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/tabs/mine/mine",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+	
+}

@@ -1,0 +1,1 @@
+<view class="content"><text class="success-icon yticon"></text><text class="tit">订单支付成功</text><text class="tit titone">{{"￥"+price}}</text><text class="tit tittwo">稍后为您加油哦~</text><view class="btn-group"><navigator class="mix-btn hollow" url="/pages/tabs/index/index" open-type="switchTab">返回首页</navigator></view></view>
